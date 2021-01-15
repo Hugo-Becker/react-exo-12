@@ -1,0 +1,35 @@
+.article img{
+    height: 200px;;
+    width: 200px;
+
+}
+.article{
+    display: flex;
+    padding: 60px;
+    background-color: var(--main-color);
+}
+
+.article .articleImg{
+    display: flex;
+    justify-content: center;
+    flex: 6;
+}
+.article .articleText{
+    flex: 6;
+}
+.article .textContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article .articleText p{
+    color: black;
+
+}
+.article .articleText h1{
+    color:var(--second-color);
+    padding: 0;
+    margin: 0;
+}

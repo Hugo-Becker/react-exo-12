@@ -1,6 +1,8 @@
+@import './css/_article.css';
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
